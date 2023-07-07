@@ -20,7 +20,7 @@ Resources:
    #     Name: !Ref DomainName
 
    Certificate:
-      # TODO: REMEMBER TO MANUALLY VALIDATE ACM CONSOLE
+      # NOTE: DIDN'T NEED TO REMEMBER TO MANUALLY VALIDATE ACM CONSOLE, DONE AUTOMATICALLY AS OF 20230707 DEPLOYMENT
       Type: AWS::CertificateManager::Certificate
       Properties:
          DomainName: !Ref DomainName
