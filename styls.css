@@ -1,0 +1,42 @@
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: grid;
+   /* grid-template-columns: 300px 1fr; */
+   gap: 10px;
+}
+
+.rightPanel {
+   font-size: x-large;
+}
+
+.statement {
+   border: 0.2rem outset gray;
+   opacity: 0;
+   padding: 1rem;
+   text-align: center;
+}
+
+img {
+   height: 150px;
+   width: 150px;
+   opacity: 0;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media (min-width: 600px) {
+   .wrapper {
+      grid-template-columns: 300px 1fr;
+   }
+
+   img {
+      height: 300px;
+      width: 300px;
+   }
+
+   .statement {
+      width: 75%;
+   }
+}
