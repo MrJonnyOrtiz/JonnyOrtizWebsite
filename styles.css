@@ -28,7 +28,7 @@ img {
    margin-right: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 690px) {
    .wrapper {
       grid-template-columns: 300px 1fr;
    }
