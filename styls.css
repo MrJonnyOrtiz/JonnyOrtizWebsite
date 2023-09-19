@@ -12,6 +12,7 @@
 
 .statement {
    border: 0.2rem outset gray;
+   border-radius: 25px;
    opacity: 0;
    text-align: center;
    padding-top: 0.5rem;
